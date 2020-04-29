@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: lightblue;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+}
+
+.name-container, .nav-links{
+    display: flex;
+}
+.me-img{
+    width: 20%;
+    height: auto;
+}
+
+.name-container{
+    flex: 1;
+}
+.name{
+    font-weight: 500;
+    margin: 5px;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: gray;
+}
+nav{
+    flex: 2;
+}
+
+.presentation {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
